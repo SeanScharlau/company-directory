@@ -9,15 +9,12 @@ As an example/test, you should be able to access either http://localhost:8080/de
 These will list either all department data or all people data respectively.
 
 ## Folder Structure
-└───src
-
-    ├───models 
-
-    ├───routes
-
-    ├───services
-    
-    └───test
+.
+├── src                
+│   ├── models         # GraphQL Models
+│   ├── routes         # API Routes
+│   ├── services       # Database Connection
+│   └── test           # Test files (alternatively `spec` or `tests`)
 
 ### models
 This folder includes a graphql model file for each collection
