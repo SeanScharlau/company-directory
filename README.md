@@ -9,19 +9,18 @@ As an example/test, you should be able to access either http://localhost:8080/de
 These will list either all department data or all people data respectively.
 
 ## Folder Structure
-# src
-
-* [models/](.\src\models)
-  * [departments.ts](.\src\models\departments.ts)
-  * [people.ts](.\src\models\people.ts)
-* [routes/](.\src\routes)
-  * [departments.router.ts](.\src\routes\departments.router.ts)
-  * [people.router.ts](.\src\routes\people.router.ts)
-* [services/](.\src\services)
-  * [database.service.ts](.\src\services\database.service.ts)
-* [test/](.\src\test)
-  * [departments.test.ts](.\src\test\departments.test.ts)
-* [index.ts](.\src\index.ts)
+src/
+┣ models/
+┃ ┣ departments.ts
+┃ ┗ people.ts
+┣ routes/
+┃ ┣ departments.router.ts
+┃ ┗ people.router.ts
+┣ services/
+┃ ┗ database.service.ts
+┣ test/
+┃ ┗ departments.test.ts
+┗ index.ts
 
 ### models
 This folder includes a graphql model file for each collection
